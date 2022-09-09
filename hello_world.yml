@@ -1,5 +1,6 @@
 - name: Update Inventory Project
   hosts: main
+  gather_facts: no
   tasks:
     - name: Updating Inventory..
       debug:
