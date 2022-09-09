@@ -1,6 +1,5 @@
 [main]
 127.0.0.1 _awx_description="my host 1"
-127.0.0.2 _awx_description="my host 4"
 
 [test]
 127.0.0.3 _awx_description="my host 3"
