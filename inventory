@@ -1,9 +1,10 @@
 [main]
-localhost _awx_description="my host 1"
+localhost awx_description="my host 1"
 
 [main:vars]
 ansible_connection=local
 ansible_python_interpreter='{{ ansible_playbook_python }}'
 
-[test]
-127.0.0.2 _awx_description="my host 2"
+[nodes]
+52.118.96.216 awx_description="node 1"
+52.118.98.209 awx_description="node 2"
