@@ -7,4 +7,4 @@ ansible_python_interpreter='{{ ansible_playbook_python }}'
 
 [nodes]
 52.118.96.216 awx_description="node 1"
-52.118.98.209 awx_description="node 2"
+#52.118.98.209 awx_description="node 2"
