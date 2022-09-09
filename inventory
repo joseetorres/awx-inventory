@@ -7,5 +7,3 @@ ansible_python_interpreter='{{ ansible_playbook_python }}'
 
 [test]
 127.0.0.2 _awx_description="my host 2"
-127.0.0.3 _awx_description="my host 3"
-127.0.0.4 _awx_description="my host 4"
