@@ -1,6 +1,6 @@
-- name: Hello World Sample
+- name: Update Inventory Project
   hosts: main
   tasks:
-    - name: Hello Message
+    - name: Updating Inventory..
       debug:
-        msg: "Hello World!"
+        msg: "Updated!"
