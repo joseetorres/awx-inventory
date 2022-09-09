@@ -1,7 +1,0 @@
-- name: Hello World!
-  hosts: nodes
-  gather_facts: no
-  tasks:
-    - name: Hello World!
-      debug:
-        msg: "Hello World!"
